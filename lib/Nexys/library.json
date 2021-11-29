@@ -1,0 +1,7 @@
+{
+    "name": "Nexys Driver Suite",
+    "version": "0.1.3",
+    "description": "Nexys A7 driver suite built for RISC V",
+    "frameworks": "*",
+    "platforms": "*"
+  }
