@@ -1,5 +1,5 @@
-#include "nexys_driver.h"
-#include "disp_driver.h"
+#include "nexys_driver.c"
+#include "disp_driver.c"
 
 int main()
 {
