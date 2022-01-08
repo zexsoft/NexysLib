@@ -24,7 +24,7 @@ int switch_read() {                             // Returns switches states in lo
 }
 
 void LEDs_value(int val) {                      // Sets LEDs states from lower nibbles
-    WRITE_GPIO(LEDs_Amain, val);                // Write values to LEDs (1 bit -> 1 LED)
-}
+    WRITE_GPIO(LEDs_Amain, val % 0xFFFF);       // Write values to LEDs (1 bit -> 1 LED)
+}                                               // Prevents overflow by default
 
 #endif
